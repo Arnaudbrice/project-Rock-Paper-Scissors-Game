@@ -70,12 +70,11 @@ endResult2(userInput, computerChoice);
  * @param {*} computerChoice, the random choice of the computer
  * @returns {undefined} This function does not return a value; it logs the result to the console.
  */
-/* const endResult = (userInput, computerChoice) => {
-
-    if (!computer.includes(userInput)) {
-        console.log("Wrong input,please enter: Rock, Paper or Scissors");
-        return;
-      }
+const endResult = (userInput, computerChoice) => {
+  if (!computer.includes(userInput)) {
+    console.log("Wrong input,please enter: Rock, Paper or Scissors");
+    return;
+  }
   if (userInput === computerChoice) {
     console.log(
       `Output: You chose ${userInput}. Computer chose ${computerChoice}. You ${result[2]}!`
@@ -123,4 +122,4 @@ endResult2(userInput, computerChoice);
   }
 };
 
-endResult(userInput, computerChoice); */
+endResult(userInput, computerChoice);
